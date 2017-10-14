@@ -18,7 +18,7 @@
 		299BDEE91F92B10C003FDDA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299BDEE01F92B0E4003FDDA8 /* ViewController.swift */; };
 		299BDEEC1F92B12A003FDDA8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 299BDEEB1F92B126003FDDA8 /* LICENSE */; };
 		299BDEED1F92B12A003FDDA8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 299BDEEA1F92B126003FDDA8 /* README.md */; };
-		299BDEEF1F92B3C7003FDDA8 /* FAImageView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 299BDEEE1F92B3C4003FDDA8 /* FAImageView.podspec */; };
+		299BDEF11F92B411003FDDA8 /* FAAdaptiveImageView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 299BDEF01F92B40F003FDDA8 /* FAAdaptiveImageView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 		299BDEE01F92B0E4003FDDA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		299BDEEA1F92B126003FDDA8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		299BDEEB1F92B126003FDDA8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
-		299BDEEE1F92B3C4003FDDA8 /* FAImageView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FAImageView.podspec; sourceTree = SOURCE_ROOT; };
+		299BDEF01F92B40F003FDDA8 /* FAAdaptiveImageView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FAAdaptiveImageView.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 			children = (
 				299BDEEB1F92B126003FDDA8 /* LICENSE */,
 				299BDEEA1F92B126003FDDA8 /* README.md */,
-				299BDEEE1F92B3C4003FDDA8 /* FAImageView.podspec */,
+				299BDEF01F92B40F003FDDA8 /* FAAdaptiveImageView.podspec */,
 				299BDED61F92B0E4003FDDA8 /* Classes */,
 				299BDED81F92B0E4003FDDA8 /* Example */,
 			);
@@ -266,7 +266,7 @@
 				299BDEE51F92B0FF003FDDA8 /* Assets.xcassets in Resources */,
 				299BDEED1F92B12A003FDDA8 /* README.md in Resources */,
 				299BDEE81F92B109003FDDA8 /* Info.plist in Resources */,
-				299BDEEF1F92B3C7003FDDA8 /* FAImageView.podspec in Resources */,
+				299BDEF11F92B411003FDDA8 /* FAAdaptiveImageView.podspec in Resources */,
 				299BDEE71F92B106003FDDA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
