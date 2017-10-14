@@ -8,9 +8,9 @@
 
 import UIKit
 
-@IBDesignable class FAImageView: UIImageView {
+@IBDesignable open class FAImageView: UIImageView {
     
-    @IBInspectable var root:String = "" {
+    @IBInspectable open var root:String = "" {
         didSet {
             
             #if TARGET_INTERFACE_BUILDER
@@ -28,13 +28,13 @@ import UIKit
 
 
 
-extension UIImage {
+public extension UIImage {
     
-    class func image(withRoot root: String) -> UIImage? {
+    public class func image(withRoot root: String) -> UIImage? {
         return UIImage(named: imageName(withRoot: root))
     }
 
-    class func imageName(withRoot root: String) -> String {
+    public class func imageName(withRoot root: String) -> String {
         
         let screenHeight = UIScreen.main.bounds.size.height
         if screenHeight == 568.0 { return root }
