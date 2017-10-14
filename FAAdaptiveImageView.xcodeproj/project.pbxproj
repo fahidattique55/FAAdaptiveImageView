@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		299BDEB11F92B071003FDDA8 /* FAAdaptiveImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299BDEB01F92B071003FDDA8 /* FAAdaptiveImageViewTests.swift */; };
 		299BDEBC1F92B071003FDDA8 /* FAAdaptiveImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299BDEBB1F92B071003FDDA8 /* FAAdaptiveImageViewUITests.swift */; };
-		299BDEE21F92B0EE003FDDA8 /* FAImageView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 299BDEE11F92B0EA003FDDA8 /* FAImageView.podspec */; };
 		299BDEE31F92B0F3003FDDA8 /* FAImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299BDED71F92B0E4003FDDA8 /* FAImageView.swift */; };
 		299BDEE41F92B0FC003FDDA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299BDED91F92B0E4003FDDA8 /* AppDelegate.swift */; };
 		299BDEE51F92B0FF003FDDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299BDEDA1F92B0E4003FDDA8 /* Assets.xcassets */; };
@@ -19,6 +18,7 @@
 		299BDEE91F92B10C003FDDA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299BDEE01F92B0E4003FDDA8 /* ViewController.swift */; };
 		299BDEEC1F92B12A003FDDA8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 299BDEEB1F92B126003FDDA8 /* LICENSE */; };
 		299BDEED1F92B12A003FDDA8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 299BDEEA1F92B126003FDDA8 /* README.md */; };
+		299BDEEF1F92B3C7003FDDA8 /* FAImageView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 299BDEEE1F92B3C4003FDDA8 /* FAImageView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		299BDEDE1F92B0E4003FDDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		299BDEDF1F92B0E4003FDDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		299BDEE01F92B0E4003FDDA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		299BDEE11F92B0EA003FDDA8 /* FAImageView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FAImageView.podspec; sourceTree = "<group>"; };
 		299BDEEA1F92B126003FDDA8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		299BDEEB1F92B126003FDDA8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		299BDEEE1F92B3C4003FDDA8 /* FAImageView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = FAImageView.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 			children = (
 				299BDEEB1F92B126003FDDA8 /* LICENSE */,
 				299BDEEA1F92B126003FDDA8 /* README.md */,
-				299BDEE11F92B0EA003FDDA8 /* FAImageView.podspec */,
+				299BDEEE1F92B3C4003FDDA8 /* FAImageView.podspec */,
 				299BDED61F92B0E4003FDDA8 /* Classes */,
 				299BDED81F92B0E4003FDDA8 /* Example */,
 			);
@@ -265,8 +265,8 @@
 				299BDEE61F92B106003FDDA8 /* LaunchScreen.storyboard in Resources */,
 				299BDEE51F92B0FF003FDDA8 /* Assets.xcassets in Resources */,
 				299BDEED1F92B12A003FDDA8 /* README.md in Resources */,
-				299BDEE21F92B0EE003FDDA8 /* FAImageView.podspec in Resources */,
 				299BDEE81F92B109003FDDA8 /* Info.plist in Resources */,
+				299BDEEF1F92B3C7003FDDA8 /* FAImageView.podspec in Resources */,
 				299BDEE71F92B106003FDDA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
