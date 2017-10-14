@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  FAAdaptiveImageView
+//  FAImageView
 //
-//  Created by Fahid Attique on 15/10/2017.
+//  Created by Fahid Attique on 01/10/2017.
 //  Copyright © 2017 Fahid Attique. All rights reserved.
 //
 
